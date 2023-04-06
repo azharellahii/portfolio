@@ -1,0 +1,117 @@
+.n-container {
+    padding: 10px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.n-logo {
+    font-size: 1.8rem;
+    color: wheat;
+}
+
+.li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: normal;
+}
+
+.n-list {
+    flex: 10;
+}
+
+.n-list>ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    transition: color 1s, transform 1s;
+}
+
+.i:hover {
+    transform: scale(1.4);
+}
+
+.github {
+    color: wheat;
+}
+
+.linkedin {
+    color: wheat;
+}
+
+.linkedin:hover {
+    color: blue;
+}
+
+.instagram {
+    color: wheat;
+}
+
+.instagram:hover {
+    color: coral;
+}
+
+.twitter {
+    color: wheat;
+}
+
+.twitter:hover {
+    color: aqua;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+    border: none;
+    color: wheat;
+}
+
+@media screen and (max-width:500px) {
+
+    .n-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+
+
+    .nav-links {
+        display: none;
+    }
+
+    .display-mob {
+        margin: 20px;
+        padding: 20px;
+        position: absolute;
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        top: 3rem;
+        width: 100%;
+        z-index: 2;
+        box-shadow: 0px 6px 5px 0px rgba(245, 222, 179, 0.75);
+    }
+
+
+
+}
