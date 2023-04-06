@@ -25,7 +25,7 @@ const Footer = () => {
                     <a href="https://twitter.com/azharellahii" target='_' rel="noopener" className="i twitter"><TwitterIcon /></a>
                 </div>
                 <div className='details'>
-                    <h5>Contact : azharellahi.work@gamil.com</h5>
+                    <h5>Contact : azharellahi.work@gmail.com</h5>
                 </div>
             </div>
             <div className='copyright'>
