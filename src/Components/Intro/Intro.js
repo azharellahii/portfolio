@@ -11,7 +11,7 @@ const Intro = () => {
         <div>
             <div className="b-container">
                 <div className="b-left">
-                    <span>Hiii, I am</span>
+                    <span>Hi, I am</span>
                     <span>Azhar Ellahi</span>
                     <span>Front-end/(UI) Developer :</span>
                     <span>
